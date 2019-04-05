@@ -1,0 +1,8 @@
+(giswkgp) F:
+(giswkgp) dir
+(giswkgp) cd "Git Projects/GIS_Workgroup_2019"
+
+jupyter nbconvert PythonGroupTalk.ipynb --to slides --post serve 
+--SlidesExporter.reveal_theme=serif 
+--SlidesExporter.reveal_scroll=True 
+--SlidesExporter.reveal_transition=none
