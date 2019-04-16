@@ -1,0 +1,9 @@
+My part of GIS Workgroup talk
+- Overview of how we use GeoPandas, Rasterio, Numpy in work in branch
+- Go over basic tasks we use GeoPandas, Rasterio for
+- Intro to GeoPandas, Rasterio
+- Introduce idea of splitcat watersheds, how it fits into streamcat
+- Advantages of these tools:
+    - Reproducible, open source workflow
+    - everything can be done in memory, no intermediate rasters and files need to be produced!
+    - rasterio allows windowed targeted reads to only bring in cells needed in memory!
